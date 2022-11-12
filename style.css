@@ -32,20 +32,23 @@
 
     .nav-bar-list {
         display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 270px;
         margin: 0;
         padding: 3vh;
     }
 
     .nav-bar-list li {
-        margin-left: 1vw;
+        
     }
-
 
     .dropbtn {
         background-color: transparent;
         border: transparent;
         color: #aeaeae;
         font-family: "roboto";
+        
     }
 
     .about-us:link {
@@ -55,13 +58,6 @@
     .about-us:visited {
         color: #00c2a5;
     }
-
-    .nav-bar-menu {
-        display: flex;
-        text-align: center;
-        align-items: center;
-    }
-
 
 
     .docplanner-logo {
@@ -73,7 +69,6 @@
     .dropbtn {
         font-size: 16px;
         font-family: "roboto";
-        padding-bottom: 5px;
     }
 
     .dropdown-content {
@@ -96,6 +91,7 @@
         align-items: flex-start;
         justify-content: center;
         text-align: left;
+        padding-top: 10px;
         
     }
 
