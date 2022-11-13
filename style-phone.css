@@ -272,13 +272,13 @@
 
     .brands_logos {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        padding: 0px;
-        width: 85vw;
-        height: 200px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding-top: 0px;
+        width: 80vw;
         align-items: center;
-        justify-items: center;
+        justify-items: space-between;
+        grid-row-gap: 15px;
 
     }
 
