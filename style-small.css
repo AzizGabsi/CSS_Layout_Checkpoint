@@ -249,8 +249,6 @@
     .fourth-content {
         display: grid;
         grid-template-columns: 25% 75%;
-        max-width: 1000px;
-        min-width: 1000px;
         align-items: center;
         margin: auto;
         margin-top: 50px;
@@ -270,16 +268,7 @@
         margin-left: 20px;
     }
 
-    /* .brands_logos {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 20px;
-        width: 40vw;
-        height: 110px;
-        align-items: center;
-        justify-content: space-between;
 
-    } */
 
     .brands_logos {
         display: grid;
@@ -346,9 +335,15 @@
 
     .healthcare p {
         color: rgb(117, 116, 117);
-        width: 415px;
+        
     }
-
+    .healthcare-flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        width: 30vw;
+        margin: auto;
+    }        
 
 
     .stat-grid {
@@ -361,7 +356,7 @@
 
     .grid-box {
         display: flex;
-        width: 235px;
+        width: 20vw;
         height: 300px;
 
     }
@@ -431,7 +426,6 @@
     .sixth-header {
         display: flex;
         flex-direction: column;
-        width: 1000px;
         align-items: center;
         padding: 50px;
 
@@ -464,8 +458,8 @@
 
     .sixth-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         justify-content: center;
         grid-gap: 20px;
     
